@@ -1,0 +1,21 @@
+{
+    "name": "herroffizier/yii2-dumpling",
+    "type": "yii2-extension",
+    "keywords": ["yii", "yii2", "yii 2", "extension", "db", "mysql", "dump", "mysqldump"],
+    "description": "Dump and restore db in Yii2.",
+    "require": {
+        "yiisoft/yii2": "*",
+        "symfony/process": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "codeception/codeception": "2.0.*",
+        "codeception/verify": "*",
+        "codeception/specify": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phing/phing": "*"
+    },
+    "autoload": {
+        "psr-4": {"herroffizier\\yii2dumpling\\tests\\": "tests/", "herroffizier\\yii2dumpling\\": "src/"}
+    }
+}
