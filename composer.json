@@ -1,8 +1,9 @@
 {
     "name": "herroffizier/yii2-dumpling",
     "type": "yii2-extension",
+    "license": "BSD-3-Clause",
     "keywords": ["yii", "yii2", "yii 2", "extension", "db", "mysql", "dump", "mysqldump"],
-    "description": "Dump and restore db in Yii2.",
+    "description": "Dump and restore databases in Yii2.",
     "require": {
         "php": ">=5.5",
         "yiisoft/yii2": "*",

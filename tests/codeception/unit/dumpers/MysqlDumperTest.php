@@ -4,7 +4,7 @@
  *
  * This file contains MySQL dumper test.
  *
- * @author  Martin Stolz <herr.offizier@gmail.com>
+ * @author  Alexei Korotin <herr.offizier@gmail.com>
  */
 
 namespace herroffizier\yii2dumpling\tests\codeception\unit;

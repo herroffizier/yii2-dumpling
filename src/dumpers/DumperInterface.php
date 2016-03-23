@@ -4,7 +4,7 @@
  *
  * This file contains dumper interface.
  *
- * @author  Martin Stolz <herr.offizier@gmail.com>
+ * @author  Alexei Korotin <herr.offizier@gmail.com>
  */
 
 namespace herroffizier\yii2dumpling\dumpers;
