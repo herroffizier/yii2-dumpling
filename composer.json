@@ -4,6 +4,7 @@
     "keywords": ["yii", "yii2", "yii 2", "extension", "db", "mysql", "dump", "mysqldump"],
     "description": "Dump and restore db in Yii2.",
     "require": {
+        "php": ">=5.5",
         "yiisoft/yii2": "*",
         "symfony/process": "*"
     },
