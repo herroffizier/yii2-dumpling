@@ -17,6 +17,9 @@ install:
     - composer global require "codeception/verify=*"
     - composer install --no-interaction --prefer-source
 
+before_script:
+    - mysql -e 'create database test;'
+
 script: ./vendor/bin/phing test
 
 after_script:
