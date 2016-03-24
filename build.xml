@@ -13,7 +13,7 @@
 
     <target name="cs">
         <exec 
-            command="./vendor/bin/phpcs --ignore=./vendor/ --report=full --standard=PSR2 -p ." 
+            command="./vendor/bin/phpcs --ignore=./vendor/ --ignore=./tests/codeception/_support/ --report=full --standard=PSR2 -p ." 
             passthru="true" 
             checkreturn="true"
         />

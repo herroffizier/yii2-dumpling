@@ -5,10 +5,6 @@ coverage:
     whitelist:
         include:
             - ../src/*
-    blacklist:
-        include:
-            - ../tests/
-            - ../vendor/
 paths:
     tests: codeception
     log: codeception/_output

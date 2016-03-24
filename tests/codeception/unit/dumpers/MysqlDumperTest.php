@@ -7,9 +7,10 @@
  * @author  Alexei Korotin <herr.offizier@gmail.com>
  */
 
-namespace herroffizier\yii2dumpling\tests\codeception\unit;
+namespace herroffizier\yii2dumpling\tests\codeception\unit\dumpers;
 
 use Yii;
+use herroffizier\yii2dumpling\tests\codeception\unit\TestCase;
 use herroffizier\yii2dumpling\dumpers\MysqlDumper;
 
 class MysqlDumperTest extends TestCase

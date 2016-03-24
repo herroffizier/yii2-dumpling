@@ -62,6 +62,13 @@ class Module extends \yii\base\Module implements BootstrapInterface
     public function bootstrap($app)
     {
         $app->set($this->id, $this);
+
+        if ($app instanceof \yii\console\Application) {
+            $app->controllerMap[$this->id] = [
+                'class' => 'herroffizier\yii2dumpling\commands\Controller',
+                'module' => $this,
+            ];
+        }
     }
 
     /**
